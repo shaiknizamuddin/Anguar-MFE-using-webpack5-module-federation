@@ -1,0 +1,21 @@
+<!-- <p>feature2 works! from remote2</p>
+
+<a routerLink="/feature3">Go to feature3</a> -->
+
+
+<div class="container">
+    <div class="message">
+        <p>Hi {{selectedUser.firstName}} {{selectedUser.lastName}}, As per your choice the total Premium is : 10,000$</p>
+    </div>
+    <div class="actions">
+        <button (click)="cancel()" class="btn btn-sm btn-light">Cancel</button>
+        <button (click)="makePayment()" class="btn btn-sm btn-primary">Pay</button>
+    </div>
+</div>
+
+
+  <div id="overlay" #overlay (click)="pauseScreen()" [ngStyle]="{display: expression}">
+    <div id="text">Please wait, while your transaction is being Processed !</div>
+  </div>
+
+<!-- <app-payment></app-payment> -->

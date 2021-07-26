@@ -1,0 +1,47 @@
+.container {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 20px;
+    width: 800px;
+    position: relative;
+    top: 30vh;
+}
+
+.background {
+    background-image: url("../../assets/celebrate1.jpg");
+}
+
+h2 {
+    text-align: center;
+}
+
+p {
+    margin: 0;
+    color: #8e8a8a;
+    font-size: 14px;
+    b {
+        color: #8a8484;
+    }
+}
+
+.section {
+    // border: 1px solid #ced4da;
+    padding: 5px;
+    display: flex;
+    justify-content: center;
+}
+.subscriber__details {
+    // border: 1px solid #ced4da;
+    padding: 15px;
+    margin: 5px;
+}
+.transaction__details {
+    // border: 1px solid #ced4da;
+    padding: 15px;
+    margin: 5px;
+}
+
+button {
+    display: block;
+    margin: 0 auto;
+}

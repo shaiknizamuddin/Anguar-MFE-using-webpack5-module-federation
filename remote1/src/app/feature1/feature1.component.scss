@@ -1,0 +1,32 @@
+.container {
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+    padding: 20px;
+    width: 400px;
+    position: relative;
+    top: 10vh;
+}
+
+label {
+    color: #60676d;
+    padding: 3px;
+    font-size: 14px;
+}
+::placeholder {
+    font-size: 12px;
+}
+
+button {
+    font-size: 14px;
+}
+
+.required-field:after { 
+    content: "*";
+    color: red;
+}
+
+.error__message{
+    font-size: 11px;
+    margin: 0;
+    color: red;
+}

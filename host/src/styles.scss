@@ -1,0 +1,26 @@
+/* You can add global styles to this file, and also import other style files */
+
+*{
+    margin: 0;padding: 0;
+    box-shadow: none !important;
+    outline: 0 !important;
+}
+
+
+.modal {
+    padding: 0 !important; // override inline padding-right added from js
+  }
+  .modal .modal-dialog {
+    width: 100%;
+    max-width: none;
+    height: 100%;
+    margin: 0;
+  }
+  .modal .modal-content {
+    height: 100%;
+    border: 0;
+    border-radius: 0;
+  }
+  .modal .modal-body {
+    overflow-y: auto;
+  }

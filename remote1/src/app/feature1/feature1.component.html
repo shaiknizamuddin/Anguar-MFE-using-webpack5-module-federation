@@ -1,0 +1,46 @@
+<div class="container">
+
+    <h3> Enter Insurer details </h3>
+    <div class="user__form">
+        <form autocomplete="off">
+            <div class="form-group">
+                <label for="firstname" class="required-field">First Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-sm" id="firstname" name="firstName"
+                        [(ngModel)]="firstName" placeholder="Enter first name" required>
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="lastname" class="required-field">Last Name</label>
+                <div class="col-sm-10">
+                    <input type="text" class="form-control form-control-sm" id="lastname" placeholder="Enter last name"
+                        [(ngModel)]="lastName" name="lastName">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="age" class="required-field">Age</label>
+                <div class="col-sm-10">
+                    <input type="number" class="form-control form-control-sm" id="age" placeholder="Enter age"
+                        [(ngModel)]="age" name="age">
+                </div>
+            </div>
+            <div class="form-group">
+                <label class="required-field">Plan</label>
+                <div class="col-sm-10">
+                    <select class="form-control form-control-sm " [(ngModel)]="plan" name="plan">
+                        <option value="">Select</option>
+                        <option value="silver">Silver</option>
+                        <option value="gold">Gold</option>
+                        <option value="platinum">Platinum</option>
+                    </select>
+                </div>
+            </div>
+            <p *ngIf="!form_valid" class="error__message">Please fill all the required details</p>
+            <div class="pt-2">
+                <button (click)="onSubmit()" class="btn btn-sm btn-primary">Calculate Premium</button>
+            </div>
+        </form>
+    </div>
+</div>
+
+
