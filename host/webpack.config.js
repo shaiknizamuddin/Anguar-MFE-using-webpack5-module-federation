@@ -34,9 +34,9 @@ module.exports = {
 
       // For hosts (please adjust)
       remotes: {
-        "remote1": "remote1@http://localhost:4300/remote1Entry.js",
-        "remote2": "remote2@http://localhost:4400/remote2Entry.js",
-        "remote3": "remote3@http://localhost:4500/remote3Entry.js",
+        // "remote1": "remote1@http://localhost:4300/remote1Entry.js",
+        // "remote2": "remote2@http://localhost:4400/remote2Entry.js",
+        // "remote3": "remote3@http://localhost:4500/remote3Entry.js",
 
       },
 

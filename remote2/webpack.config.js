@@ -29,7 +29,8 @@ module.exports = {
         filename: "remote2Entry.js",
         exposes: {
             // './Component': './/src/app/app.component.ts',
-            './Feature2Module': './src/app/feature2/feature2.module.ts'
+            './Feature2Module': './src/app/feature2/feature2.module.ts',
+            './DialogComponent': './src/app/dialog/dialog.component.ts'
         },        
         
         // For hosts (please adjust)
