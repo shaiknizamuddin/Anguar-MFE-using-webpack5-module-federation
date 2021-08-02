@@ -1,0 +1,25 @@
+.side__bar {
+    background-color: #717171;
+    border-right: 1px solid black;
+    color: white;
+    width: 200px;
+    height: calc(100vh - 60px);
+    overflow: auto;
+    ul {
+        list-style: none;
+        margin-left: 20px;
+        li {
+            padding: 10px;
+            a {
+                color: white;
+                text-decoration: none;
+                &:hover {
+                    color: #d0c9c9;
+                }
+                .active-link {
+                    color: green !important;
+                }
+            }
+        }
+    }
+}

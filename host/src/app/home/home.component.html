@@ -2,4 +2,20 @@
 
 <a routerLink="/home/feature1">Feature1</a>
 <button type="button" class="btn btn-primary">Primary</button> -->
-<router-outlet></router-outlet>
+
+
+
+
+
+
+<div class="header">
+    <plugin-proxy [options]="plugins[0]"></plugin-proxy>
+</div>
+<div class="section-2">
+    <div class="sidenav">
+        <plugin-proxy [options]="plugins[1]"></plugin-proxy>
+    </div>
+    <div class="main-container">
+        <router-outlet></router-outlet>
+    </div>
+</div>
