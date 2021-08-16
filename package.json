@@ -1,0 +1,31 @@
+{
+  "name": "webpack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "header": "npm run start --prefix header",
+    "host": "npm run start --prefix host",
+    "models": "npm run start --prefix models",
+    "remote1": "npm run start --prefix remote1",
+    "remote2": "npm run start --prefix remote2",
+    "remote3": "npm run start --prefix remote3",
+    "sideNav": "npm run start --prefix side-nav", 
+    "go":"npm-run-all --parallel header remote1 remote2 remote3 sideNav models host"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nizam9/Anguar-MFE-using-webpack5-module-federation.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nizam9/Anguar-MFE-using-webpack5-module-federation/issues"
+  },
+  "homepage": "https://github.com/nizam9/Anguar-MFE-using-webpack5-module-federation#readme",
+  "dependencies": {
+    "concurrently": "^6.2.1",
+    "npm-run-all": "^4.1.5"
+  }
+}

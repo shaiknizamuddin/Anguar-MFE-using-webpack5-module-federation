@@ -1,0 +1,1 @@
+"go": "concurrently \"npm run host\" \"npm run header\" \"npm run models\" \"npm run remote1\" \"npm run remote2\" \"npm run remote2\" \"npm run sideNav\""

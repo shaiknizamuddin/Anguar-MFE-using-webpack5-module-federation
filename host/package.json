@@ -3,6 +3,13 @@
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
+    "header":"npm run start --prefix header",
+    "host":"npm run start",
+    "go":"concurrently \"npm run host\" \"npm run header\"",
+
+
+
+
     "start": "ng serve",
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
@@ -21,6 +28,7 @@
     "@angular/platform-browser-dynamic": "~12.0.2",
     "@angular/router": "~12.0.2",
     "bootstrap": "^5.0.2",
+    "concurrently": "^6.2.1",
     "copy-webpack-plugin": "^9.0.1",
     "jquery": "^3.6.0",
     "primeicons": "^4.1.0",
